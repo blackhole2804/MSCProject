@@ -37,11 +37,11 @@ whitelist = ['hackthebox.eu','root-me.org','gmail.com']
 s_url = [i for i in urls if i not in whitelist]
 
 #Loading the model
-file = "C:/Users/Jaynam.Shah/Documents/shruproj/Malware-Detection-using-Machine-learning/Classifier/pickel_model.pkl"
+file = "Classifier/pickel_model.pkl"
 with open(file, 'rb') as f1:  
     lgr = pickle.load(f1)
 f1.close()
-file = "C:/Users/Jaynam.Shah/Documents/shruproj/Malware-Detection-using-Machine-learning/Classifier\pickel_vector.pkl"
+file = "Classifier\pickel_vector.pkl"
 with open(file, 'rb') as f2:  
     vectorizer = pickle.load(f2)
 f2.close()
