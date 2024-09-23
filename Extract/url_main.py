@@ -41,7 +41,7 @@ file = "Classifier/pickel_model.pkl"
 with open(file, 'rb') as f1:  
     lgr = pickle.load(f1)
 f1.close()
-file = "Classifier\pickel_vector.pkl"
+file = "Classifier/pickel_vector.pkl"
 with open(file, 'rb') as f2:  
     vectorizer = pickle.load(f2)
 f2.close()
