@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malware Detection</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <img src="malware.png" alt="Girl in a jacket" width="1300" height="350">
+    <h1 style="text-align: center">Welcome to Malware Detection System</h1>
+    <p style="text-align: center">Analyse suspicious files and URLs to detect malware</p>
+
+    <form action="/external/" method="post">
+        <div class="form-group">
+          <label for="exampleInputEmail1" style="place-items:center">Please Enter URL:</label>
+          <input type="text" class="form-control" placeholder="www.google.com">
+          {{data1}}
+          <br><br>
+        </div>
+        <button type="submit" class="btn btn-primary">Check</button>
+      </form>
+</body>
+</html>
